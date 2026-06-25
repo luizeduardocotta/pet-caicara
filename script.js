@@ -140,7 +140,7 @@ Aguardo confirmação! 😊
     `.trim()
 
   // WhatsApp link
-  const whatsappNumber = "5531981142973"
+  const whatsappNumber = "553125202690"
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`
 
   // Show success message
@@ -257,7 +257,7 @@ function enviarReserva() {
 Aguardo confirmação 😊
   `.trim()
 
-  const whatsappNumber = "5531981142973"
+  const whatsappNumber = "553125202690"
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(mensagem)}`
 
   window.open(whatsappLink, "_blank")
